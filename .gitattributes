@@ -1,0 +1,5 @@
+# Prevent Git from changing line endings for Jupyter notebooks
+*.ipynb binary
+
+# Optional: ensure CSVs keep LF (useful for cross-platform consistency)
+*.csv text eol=lf
